@@ -1,33 +1,54 @@
-# 考试管理后台
-
-## 启动项目
-- 初始化
-```js
-create-react-app.cm exam-cms --scripts-version=react-scripts-ts
-```
-
-- 启服务
-```js
-npm run start
-```
-
-## 环境搭建
-- 引入装饰器
-```js
-npm install --save-dev @babel/plugin-proposal-decorators
-```
-
-- 引入路由
-```js
-npm install --save-dev react-router-dom @types/react-router-dom
-```
-
-- 引入mobx
-```js
-npm install --save-dev mobx mobx-react
-```
-
-- 引入antd
-```js
-npm install --save-dev antd
-```
+考试平台
+- 登录页面
+    ~~~
+    完成： 登录获取到token、code等数据  
+    未完成：登录成功跳转到主页面、限制登录期限等
+    ~~~
+- 主页面
+    - 数据
+        ~~~
+            未完成：还未获取数据
+        ~~~
+    - 排版
+        ~~~
+            完成：导航、侧边栏组件封装及渲染
+            未完成：二级路由跳转
+        ~~~
+        ~~~
+            完成：二级路由跳转
+        ~~~~
+- 路由
+    ~~~
+        二级路由配置完毕
+    ~~~
+- 页面排版更新
+    - 试题分类
+        ~~~
+            完成：排版
+            未完成：操作
+        ~~~
+    - 用户展示
+        ~~~
+            完成：排版
+            未完成：操作
+        ~~~
+    - 待批班级
+        ~~~
+            完成：排版
+            未完成：操作
+        ~~~
+    - 教室管理
+        ~~~
+            完成：排版
+            未完成：操作
+        ~~~
+    - 学生管理
+        ~~~
+            完成：排版
+            未完成：操作、{三个搜索框 两个、搜索、重置 按钮  没排版 }
+        ~~~
+    - 班级管理
+        ~~~
+            完成：排版
+            未完成：操作、{操作有两个按钮 目前只有一个 没排版}
+        ~~~
