@@ -1,0 +1,17 @@
+.ant-modal-confirm-btns{
+    display: none;
+}
+.ant-modal-content{
+    width:600px;
+    height:220px;
+}
+.ant-modal-confirm-body{
+    text-align:center;
+    line-height:40px;
+}
+
+.ant-modal-confirm .ant-modal-confirm-body > .anticon {
+    display: inline-block;
+    float: none !important;
+    margin: 0 !important;
+}

@@ -1,0 +1,7 @@
+.ant-modal-footer{
+    display: none;
+}
+.ant-modal-content{
+    width:600px;
+    height:300px;
+}

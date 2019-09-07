@@ -1,0 +1,48 @@
+h4{
+    color:#fff;
+}
+*{
+    padding: 0;margin: 0;
+}
+
+.ant-layout{
+    width: 100%;
+    height: 100%;
+}
+.ant-layout-header{
+    padding: 0!important;
+}
+.header{
+    padding: 0;
+    background: #fff;
+}
+.ant-layout-header>nav{
+    width: 100%;
+    height: 100%;
+    background: #fff;
+}
+.ant-layout-header>nav>img{
+    width: 120px;
+    height:28px;
+    margin:22px 85px ;
+    float: left;
+}
+.navp{
+    width: 130px;
+    height: 28px;
+    float: right;
+    margin:22px 85px ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navp>span{
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    flex: 1;
+    background: #eee;
+}
+.navp>.ant-btn{
+    border:0!important;
+}
